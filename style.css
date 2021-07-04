@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Main SEction here */
+body{
+    font-family: 'Nunito',sans-serif;
+}
+
+.main{
+width: 100vw;
+height: 100vh;
+background-image:url('images/b.jpeg');
+background-size: cover;
+background-position:center;
+background-attachment: fixed;
+object-fit: contain;
+margin-bottom: 2px;
+
+overflow: hidden;
+position: relative;
+}
+
+.nav-bar nav a{       
+    text-decoration: none;
+    color: aliceblue;
+    text-align: center;
+    margin-left: 4rem;
+    text-transform: uppercase;
+}
+.nav-bar{
+    text-align: center; 
+}
+.nav-bar nav img{
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.main .content{
+    text-align: center;
+    margin-top: 250px;
+    color: rgb(206, 212, 218);
+}
+.main .content h1{
+    font-size: 25px;
+    color: rgb(228, 235, 241);
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1rem;
+    margin-bottom: 0.5rem;
+}
+.main .content small{
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+.main .content button{
+    height: 35px;
+    width: 120px;
+    background: rgb(18, 122, 88);
+    color: rgb(228, 235, 241);
+    text-transform: uppercase;
+    font-size: 9px;
+    margin-top: 2rem;
+}
+.social-logo{
+    color:rgb(228, 235, 241) ;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+
+
+/* Second SEction here */
+
+.second{
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 4rem; 
+    margin-right: 4rem; 
+}
+.second .content{
+    text-align: left;
+    margin-right: 6rem;
+    margin-left: 4rem;
+    height: 400px;
+    width: 400px;
+    word-wrap: initial;
+}
+.second .img img{
+    float: right;
+    height: 400px;
+    width: 400px;
+    clip-path: polygon(0% 0%,100% 0%,90% 60%,0% 60%);
+    padding-left: 50px;
+    
+}
+.second .content button{
+    height: 35px;
+    width: 120px;
+    background: rgb(18, 122, 88);
+    color: rgb(228, 235, 241);
+    text-transform: uppercase;
+    font-size: 9px;
+    margin-top: 2rem;
+}
+.second .content h1{
+    color: rgb(18, 122, 88);
+    margin-bottom: 2rem;
+}
+.second .content p{
+    color: rgb(7, 20, 34);
+}
+.second .content p strong{
+    color: black;
+}
+
+/* Third SEction here */
+
+
+.third{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-left: 4rem; 
+    margin-right: 4rem; 
+}
+.third .content{
+    float: right;
+    margin-left: 13rem;
+    overflow: visible;
+    
+}
+.third .img img{
+    float: left;
+    height: 500px;
+    width: 300px;
+    clip-path: polygon(0% 0%,100% 0%,100% 80%,0% 80%);
+    margin-left: 4rem;
+}
+.third .content button{
+    height: 35px;
+    width: 120px;
+    background: rgb(18, 122, 88);
+    color: rgb(206, 215, 224);
+    text-transform: uppercase;
+    font-size: 9px;
+    margin-top: 2rem;
+    
+}
+.third .content h1{
+    color: rgb(18, 122, 88);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.third .content p{
+    color: rgb(7, 20, 34);
+}
+
+/* Fourth SEction here */
+.fourth{
+    display: flex;
+    margin-bottom: 4rem;
+}
+#main{
+    text-align: center;
+}
+.fourth .first{
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-left: 6rem;
+}
+.fourth .first img{
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+}
+.fourth #main .first h1{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.fourth .second img{
+    margin-right: -4rem;
+}
+
+/* Fifth SEction here */
+
+.fifth .bg-img{
+    
+    background:url(images/h-2.jpeg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+  
+
+}
+.fifth .content{
+    
+    text-align: center;
+    margin-top: 50px;
+
+}
+.fifth .bg-img .content h2{
+    text-transform: uppercase;
+    color: white;
+    padding-top: 20rem;   
+}
+
+.fifth .content .btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+
+}
+.fifth .content .btn img{
+    background-color:rgb(18, 122, 88) ;
+}
+
+
+
+.six{
+    margin: 4rem;
+    padding: 2rem;
+}
+
+.six .content{
+    text-align: center;
+}
+.six .content h1{
+    color:rgb(18, 122, 88) ;
+    padding-bottom: 1rem;
+}
+.six .content p{
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font-size:15px;
+    color: rgb(7, 20, 34);
+}
+
+.six .btn{
+    text-align: center;
+}
+.six .btn1, .btn2{
+    outline: none;
+    height: 50px;
+    width: 180px;
+    background: rgb(18, 122, 88);
+    color: rgb(228, 235, 241);
+    text-transform: uppercase;
+    font-size: 9px;
+    margin-top: 2rem;
+   
+}
